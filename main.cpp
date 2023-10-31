@@ -13,7 +13,7 @@ void reverseAndPrint(T* arr, int size) {
 
 int main() {
     const int size = 10; 
-    int arr[size];
+    int arr[size]{};
 
     
     srand(static_cast<unsigned>(time(0)));
