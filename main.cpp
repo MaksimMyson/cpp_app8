@@ -24,6 +24,12 @@ bool isPrime(T number) {
     return true;
 }
 
+template<typename T>
+int countPrimes(const int arr[], int size)
+{
+    return 0;
+}
+
 template <typename T>
 int countPrimeNumbers(const T arr[], int size) {
     int count = 0;
