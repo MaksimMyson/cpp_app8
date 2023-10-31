@@ -4,7 +4,7 @@
 #include "header.h"
 
 template <typename T>
-void reverseAndPrint(T* arr, int size) {
+void reverseAndPrint(T arr, int size) {
     for (int i = size - 1; i >= 0; --i) {
         std::cout << arr[i] << " ";
     }
