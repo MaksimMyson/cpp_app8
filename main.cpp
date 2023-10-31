@@ -25,7 +25,7 @@ bool isPrime(T number) {
 }
 
 template <typename T>
-int countPrimeNumbers(const T* arr, int size) {
+int countPrimeNumbers(const T arr[], int size) {
     int count = 0;
     for (int i = 0; i < size; ++i) {
         if (isPrime(arr[i])) {
@@ -36,12 +36,11 @@ int countPrimeNumbers(const T* arr, int size) {
 }
 
 int main() {
-    const int size = 10;  
+    const int size = 10;
     int arr[size];
 
-    
-    for (int i = 0; i < size; ++i) { 
-        arr[i] = rand() % 100;  
+    for (int i = 0; i < size; ++i) {
+        arr[i] = rand() % 100;
     }
 
     cout << "Array elements: ";
